@@ -20,7 +20,7 @@
     $anoFundacao = 2009;
     echo "<p> Nossa empresa foi fundada em $anoFundacao.</p>";
     $quantidadeFuncionarios = 40;
-    echo "<p> Atualmente temos $quantidadeFuncionarios ativos na empresa.";    
+    echo "<p> Atualmente temos $quantidadeFuncionarios funcionários ativos na empresa.";    
     $faturamento = 2000000.00;
     echo "<p> Nosso Faturamento é de $faturamento";
     $empresaAtiva = false;
