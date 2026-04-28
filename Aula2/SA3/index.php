@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
-        $anoFundacao = 2010;
-        $anoAtual = 2026;
+<?php 
+$empresa = "Love Yourself";
+$funcionarios = 40;
 
-        $tempoEmpresa = $anoAtual - $anoFundacao;
-        echo "Tempo empresa: $tempoEmpresa anos";
-    ?>
-</body>
-</html>
+echo "A " . $empresa . " possui " . $funcionarios . " funcionarios";
+?>
